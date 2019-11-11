@@ -1,0 +1,62 @@
+//
+//  GCGreenShop-Prefix.pch
+//  GCGreenShop
+//
+//  Created by 付清照 on 2019/11/11.
+//  Copyright © 2019 FuQingZhao. All rights reserved.
+//
+
+#ifndef GCGreenShop_Prefix_pch
+#define GCGreenShop_Prefix_pch
+
+#import "TT-Environment.h"
+
+#import <Availability.h>
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#ifdef __OBJC__
+
+//------------------
+// System Frameworks
+//------------------
+#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
+
+//-----------
+// 环境变量
+//-----------
+#import "TT-Constants.h"
+#import "TT-Environment.h"
+#import "TTAppDelegate.h"
+#import "TTAppConfiguration.h"
+//#import "TTNetworkManager.h"
+
+//-----------
+// 第三方库引用
+//-----------
+#import <IQKeyboardManager/IQKeyboardManager.h>
+#import <AFNetworking/AFNetworking.h>
+#import <YYKit/YYKit.h>
+#import <BlocksKit/BlocksKit.h>
+#import <BlocksKit/BlocksKit+UIKit.h>
+#import <MJRefresh/MJRefresh.h>
+#import <DZNEmptyDataSet/UIScrollView+EmptyDataSet.h>
+#import <SDWebImage/SDWebImage-umbrella.h>
+#import <SJAttributesFactory/SJAttributesFactoryHeader.h>
+#import <SDCycleScrollView/SDCycleScrollView.h> //banner
+#import <Masonry/Masonry.h>
+
+//-----------
+// Libraries
+//-----------
+#import "Utilities.h"
+#import "BTKLib.h"
+#import "UMSSDK.h"
+#import "UMSLoginViewBoard.h"
+//#import "TTLocationManager.h"//百度定位
+#import "WRNavigationBar.h"
+
+#endif  /* __OBJC__ */
+#endif /* GCGreenShop_Prefix_pch */

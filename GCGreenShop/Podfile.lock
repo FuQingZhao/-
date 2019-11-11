@@ -1,0 +1,130 @@
+PODS:
+  - AFNetworking (3.2.1):
+    - AFNetworking/NSURLSession (= 3.2.1)
+    - AFNetworking/Reachability (= 3.2.1)
+    - AFNetworking/Security (= 3.2.1)
+    - AFNetworking/Serialization (= 3.2.1)
+    - AFNetworking/UIKit (= 3.2.1)
+  - AFNetworking/NSURLSession (3.2.1):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (3.2.1)
+  - AFNetworking/Security (3.2.1)
+  - AFNetworking/Serialization (3.2.1)
+  - AFNetworking/UIKit (3.2.1):
+    - AFNetworking/NSURLSession
+  - BaiduMobStat (4.9.1)
+  - BlocksKit (2.2.5):
+    - BlocksKit/All (= 2.2.5)
+  - BlocksKit/All (2.2.5):
+    - BlocksKit/Core
+    - BlocksKit/DynamicDelegate
+    - BlocksKit/MessageUI
+    - BlocksKit/UIKit
+  - BlocksKit/Core (2.2.5)
+  - BlocksKit/DynamicDelegate (2.2.5)
+  - BlocksKit/MessageUI (2.2.5):
+    - BlocksKit/Core
+    - BlocksKit/DynamicDelegate
+  - BlocksKit/UIKit (2.2.5):
+    - BlocksKit/Core
+    - BlocksKit/DynamicDelegate
+  - CYLTabBarController (1.17.23)
+  - DZNEmptyDataSet (1.8.1)
+  - FMDB (2.7.5):
+    - FMDB/standard (= 2.7.5)
+  - FMDB/standard (2.7.5)
+  - INTULocationManager (4.3.2)
+  - IQKeyboardManager (4.0.13)
+  - JCore (1.2.6)
+  - JPush (3.1.2):
+    - JCore (~> 1.2.6)
+  - Masonry (1.1.0)
+  - MJRefresh (3.1.15.7)
+  - SDAutoLayout (2.2.1)
+  - SDCycleScrollView (1.75):
+    - SDWebImage (>= 4.0.0)
+  - SDWebImage (4.4.6):
+    - SDWebImage/Core (= 4.4.6)
+  - SDWebImage/Core (4.4.6)
+  - Shimmer (1.0.2)
+  - SJAttributesFactory (1.1.14)
+  - UMCAnalytics (6.0.2):
+    - UMCCommon
+  - UMCCommon (2.0.0)
+  - WSProgressHUD (1.1.3):
+    - Shimmer
+  - YYKit (1.0.9):
+    - YYKit/no-arc (= 1.0.9)
+  - YYKit/no-arc (1.0.9)
+
+DEPENDENCIES:
+  - AFNetworking
+  - BaiduMobStat
+  - BlocksKit (~> 2.2.5)
+  - CYLTabBarController (~> 1.17.6)
+  - DZNEmptyDataSet
+  - FMDB (~> 2.5)
+  - INTULocationManager
+  - IQKeyboardManager (~> 4.0.10)
+  - JPush
+  - Masonry
+  - MJRefresh
+  - SDAutoLayout
+  - SDCycleScrollView (~> 1.75)
+  - SJAttributesFactory (~> 1.1.14)
+  - UMCAnalytics
+  - WSProgressHUD (~> 1.1.0)
+  - YYKit
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - AFNetworking
+    - BaiduMobStat
+    - BlocksKit
+    - CYLTabBarController
+    - DZNEmptyDataSet
+    - FMDB
+    - INTULocationManager
+    - IQKeyboardManager
+    - JCore
+    - JPush
+    - Masonry
+    - MJRefresh
+    - SDAutoLayout
+    - SDCycleScrollView
+    - SDWebImage
+    - Shimmer
+    - SJAttributesFactory
+    - UMCAnalytics
+    - UMCCommon
+    - WSProgressHUD
+    - YYKit
+
+SPEC CHECKSUMS:
+  AFNetworking: b6f891fdfaed196b46c7a83cf209e09697b94057
+  BaiduMobStat: e2dbfd44f1535adf3c0001cbd3212eb61c4fe639
+  BlocksKit: 7f422b971407001178d181a43b99014ea2591fe6
+  CYLTabBarController: 73889c1ccc7685221d85ac2dbf188900543f17d0
+  DZNEmptyDataSet: 9525833b9e68ac21c30253e1d3d7076cc828eaa7
+  FMDB: 2ce00b547f966261cd18927a3ddb07cb6f3db82a
+  INTULocationManager: e5dc524611b0cd582f473bc56cc8c389adb2f338
+  IQKeyboardManager: 8eab4d8111418414619d1df8e4779ce5d0f8d7e2
+  JCore: cae516dd2bf1a73b578ce6e1065abd49e709e0f7
+  JPush: d0cead70ba223a6a3b52749899ebda830dfbc49a
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+  MJRefresh: 697f8ec75ebdbe9207767bb682cf0f51b0d8a41f
+  SDAutoLayout: 8bf6b3bbc8b01f775d4defbb4fda2ace805461be
+  SDCycleScrollView: 884b88f0266dd4708a0e1934975c69cb971707b1
+  SDWebImage: 3f3f0c02f09798048c47a5ed0a13f17b063572d8
+  Shimmer: c5374be1c2b0c9e292fb05b339a513cf291cac86
+  SJAttributesFactory: 10af803585a072a7d6273b87cb12f729f15b89a6
+  UMCAnalytics: 901960ede5a8a85f208bd37689ad3e607b433930
+  UMCCommon: 79b5a614c958db367113eed5740109d9a98e1223
+  WSProgressHUD: a0902809c8af112fb34b004fdc75c16eb85167a3
+  YYKit: 7cda43304a8dc3696c449041e2cb3107b4e236e7
+
+PODFILE CHECKSUM: 30dd994227e58cd61976ef5ddbcb8aada777d1b9
+
+COCOAPODS: 1.5.3

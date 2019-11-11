@@ -1,0 +1,36 @@
+platform :ios, '9.0'
+
+# Uncomment this line if you need Swift support:
+inhibit_all_warnings!
+use_frameworks!
+
+# Inform CocoaPods that we use some custom build configurations
+# Leave this in place unless you've tweaked the project's targets and configurations.
+target 'GCGreenShop' do
+  
+  # 常用第三方库
+  pod 'AFNetworking'
+  pod 'YYKit'
+  pod 'BlocksKit', '~> 2.2.5'
+  pod 'SDAutoLayout'
+  pod 'Masonry'
+  pod 'IQKeyboardManager', '~> 4.0.10'
+  pod 'INTULocationManager'
+  pod 'FMDB', '~> 2.5'
+  pod 'WSProgressHUD', '~> 1.1.0'
+  pod 'SDCycleScrollView', '~> 1.75'
+  pod 'MJRefresh'
+  pod 'DZNEmptyDataSet'
+  pod 'SJAttributesFactory', '~> 1.1.14'
+  
+  # 可选库集成
+  pod 'CYLTabBarController', '~> 1.17.6'
+  
+  # 极光推送
+  pod 'JPush'
+  # 友盟统计
+  pod 'UMCAnalytics'
+  # 百度移动统计
+  pod 'BaiduMobStat'
+  
+end
